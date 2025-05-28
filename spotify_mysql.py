@@ -3,9 +3,9 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
 import re
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='6f9dcb59b70c46a588d5f2b300d639d6',
-    client_secret='fde88152da554ed38b662ecc1f8689dc'
+sp=spotipy.Spotify(auth_manager=SpotifyClientCredentials(
+    client_id='your client id',
+    client_secret='your secret id'
 ))
 
 db_config = {
