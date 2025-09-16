@@ -1,0 +1,3 @@
+spotipy
+mysql-connector-python
+python-dotenv
